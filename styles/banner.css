@@ -1,0 +1,53 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding:  5% 30%;
+}
+
+.banner__sobre {
+    color: var(--cor-secundaria);
+    font-size: 1rem;
+}
+
+.banner__titulo {
+    color: var(--cor-primaria);
+    font-weight: 600;
+    font-size: 3rem;
+    padding: 7%;
+}
+
+.banner__texto {
+    color: var(--cor-terciaria);
+    font-size: 1.2rem;
+    line-height: 160%;
+}
+.dados {
+    display: flex;
+    align-items: center;
+    padding: 2% 5%;
+}
+
+.dados__conteudo {
+    width: 20%;
+    padding: 0 5%;
+}
+
+.dados__numero {
+    font-size: 3.75rem;
+    font-weight: 600;
+    color: var(--cor-secundaria);
+}
+
+.dados__sub {
+    font-size: 1.2rem;
+    color: var(--cor-primaria);
+    padding: 5% 0;
+}
+
+.dados__texto {
+    font-size: 1rem;
+    color: var(--cor-terciaria);
+    line-height: 160%;
+}
