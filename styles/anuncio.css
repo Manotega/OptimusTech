@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 8% 5%;
+    padding: 8% 5% 2%;
 }
 
 .fundo {
@@ -30,5 +30,5 @@
 
 .anuncio__imagem {
     width: 90%;
-    padding: 8% 0;
+    padding: 8% 0 2%;
 }
