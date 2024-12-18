@@ -38,3 +38,22 @@
     font-size: 0.9rem;
     padding: 0 5% 0 0;
 }
+
+@media screen and (max-width: 1024px) {
+    .vagas {
+        padding: 5% 10%;
+    }
+
+    .vagas__categoria__titulo {
+        padding-bottom: 5%;
+    }
+
+    .vagas__bloco {
+        margin-bottom: 5%;
+        padding: 5% 3%  ;
+    }
+
+    .vagas__bloco__descricao__txt {
+        padding: 0 7% 0 0;
+    }
+}

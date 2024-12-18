@@ -50,3 +50,18 @@
     border-radius: 8px;
     background-color: var(--cor-secundaria);
 }
+
+@media screen and (max-width: 1024px) {
+    .cabecalho {
+        padding: 3% 5%;
+    }
+
+    .cabecalho__opcoes {
+        display: none;
+    }
+
+    .cabecalho__cadastro {
+        margin-right: 5%;
+        gap: 16px;
+    }
+}

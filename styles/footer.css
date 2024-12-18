@@ -51,3 +51,33 @@
     font-size: 1rem;
     padding-top: 2%;
 }
+
+@media screen and (max-width: 1024px) {
+    .rodape {
+        padding: 5%;
+    }
+
+    .rodape__titulo {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .rodape__sub {
+        padding: 3% 0 5%;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .rodape__cadastro {
+        width: 90%;
+    }
+
+    .rodape__email {
+        width: 60%;
+    }
+
+    .rodape__direitos {
+        font-size: 0.8rem;
+        padding-top: 5%;
+    }
+}

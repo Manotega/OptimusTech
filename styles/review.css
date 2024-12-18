@@ -28,13 +28,42 @@
     width: 72px;
 }
 
- .review__user {
+.review__user {
     padding: 1.5% 0;
     font-size: 1.1rem;
     color: var(--cor-primaria);
- }
+}
 
- .review__userinfo {
+.review__userinfo {
     color: var(--cor-terciaria);
     font-size: 0.9rem;
- }
+}
+
+@media screen and (max-width: 1024px) {
+    .review {
+        margin: 10% 5% 20%;
+        padding: 5%;
+    }
+
+    .review__sub {
+        font-size: 0.8rem;
+    }
+
+    .review__titulo {
+        font-size: 1.8rem;
+        line-height: 115%;
+        padding: 3% 0 8%;
+    }
+
+    .review__img {
+        width: 56px;
+    }
+
+    .review__user {
+        font-size: 1rem;
+    }
+
+    .review__userinfo {
+        font-size: 0.8rem;
+    }
+}

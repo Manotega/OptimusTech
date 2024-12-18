@@ -32,3 +32,25 @@
     width: 90%;
     padding: 8% 0 2%;
 }
+
+@media screen and (max-width: 1024px) {
+    .fundo {
+        padding: 2%;
+    }
+
+    .anuncio__titulo {
+        text-align: center;
+        font-size: 2rem;
+        padding: 3% 0;
+    }
+
+    .anuncio__sub {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .anuncio__imagem {
+        width: 115%;
+        padding: 8% 0 2%;
+    }
+}
